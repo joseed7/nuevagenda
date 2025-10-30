@@ -63,12 +63,20 @@ H2 Console: http://localhost:8080/h2-console
 📚 Documentación de la API
 Endpoints disponibles
 Método	Endpoint	Descripción
+
+
 GET	/api/contactos	Obtener todos los contactos
+
 GET	/api/contactos/{id}	Obtener contacto por ID
+
 POST	/api/contactos	Crear nuevo contacto
+
 PUT	/api/contactos/{id}	Actualizar contacto existente
+
 DELETE	/api/contactos/{id}	Eliminar contacto
+
 GET	/api/contactos/buscar?nombre={nombre}	Buscar por nombre
+
 GET	/api/contactos/buscar-termino?termino={termino}	Búsqueda general
 
 Ejemplos de uso-----
